@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.backgroundPic{
+    background-image:url(images/backg3.jpg);
+    min-height: 100%; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.img1{
+    background-image:url(images/streetArt.jpg);
+}
+.img2{
+    background-image:url(images/Mandala2.jpg);
+}
+.img3{
+    background-image:url(images/Madhubani.webp);
+}
+.img4{
+    background-image:url(images/warliArt1.jpg);
+   
+}
+.img1,.img2,.img3,.img4{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: 0.9;
+    background-attachment: fixed;
+    min-height: 550px; 
+   
+}
+.PWText .head{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(6 132 120);
+    font-size: 34px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.PWText p{
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    text-align: center;
+    color: rgb(6 132 120);
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.section{
+    text-align: center;
+    padding: 40px 40px;
+    background-color: #282e34;
+    color: #ddd;
+}
+.section .last{
+    text-align: center;
+    padding: 40px 40px;
+    background-color: #282e34;
+    color: #ddd;
+    font-size: 20px;
+}
+.PWText .bottom{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(6 132 120);
+    font-size: 34px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+} 
